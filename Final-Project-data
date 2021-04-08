@@ -1,0 +1,4 @@
+import pandas as pd
+
+service = pd.read_csv("service request.tsv", sep="\t")
+service.head()
